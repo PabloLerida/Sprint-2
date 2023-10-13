@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="back"></div>
+      <div class="formulario fontstyle">
+        <form action="">
+          <label for="name">CARDHOLDER NAME</label><br />
+          <input
+            class="input_name fontstyle"
+            type="text"
+            placeholder="    e.g. Jane Appleseed"
+          />
+          <br />
+          <label for="cardnumber">CARD NUMBER</label><br />
+          <input
+            class="input_number fontstyle"
+            type="text"
+            placeholder="    e.g. 1234 5678 9123 0000"
+          />
+          <br />
+          <label for="expdate">EXP. DATE (MM/YY)</label
+          ><span class="codemargin">CVC</span><br />
+          <input class="month fontstyle" type="text" placeholder="    MM" />
+          <input class="year fontstyle" type="text" placeholder="    YY" />
+          <input class="cvc fontstyle" type="text" placeholder="    e.g. 123" />
+          <br />
+          <button class="button1">Confirm</button>
+        </form>
+      </div>
+      <div class="goodbye">
+        <div class="thanks"></div>
+        <p>THANK YOU!</p>
+        <p>We've added your card details</p>
+        <button>Continue</button>
+      </div>
+    </div>
+    <div class="frontcard">
+      <div class="cardpic1 whitetype">
+        <div class="iconcard"></div>
+        <span class="data1 fontstylecard">JANE APPLESEED</span>
+        <span class="data2 numberstylecard">0000 0000 0000 0000</span>
+        <span class="data3 fontstylecard">00</span>
+        <span class="data4 fontstylecard">/</span>
+        <span class="data5 fontstylecard">00</span>
+      </div>
+    </div>
+
+    <div class="backcard">
+      <div class="cardpic2 whitetype">
+        <span class="data6 fontstylecard">000</span>
+      </div>
+    </div>
+  </body>
+</html>
